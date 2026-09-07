@@ -23,5 +23,5 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/panaderia/public/ventas_importacion/',
+  base: '/ventas_importacion/',
 })
