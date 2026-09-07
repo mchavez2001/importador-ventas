@@ -1,5 +1,9 @@
+/* const API_URL =
+  import.meta.env.VITE_API_URL || 'http://localhost:8000/api' */
+
 const API_URL =
-  import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
+  import.meta.env.VITE_API_URL ||
+  'https://panificadoradelnortech.com/importador-api/api'
 
 function obtenerMensajeError(data, status) {
   if (data?.message) {
